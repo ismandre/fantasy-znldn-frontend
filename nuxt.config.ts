@@ -10,7 +10,7 @@ export default defineNuxtConfig({
 		],
 	},
 	compatibilityDate: "2025-07-15",
-	css: ["@picocss/pico"],
+	css: ["@picocss/pico", "./app/assets/css/main.css"],
 	// css: ["./app/assets/css/main.css"],
 	eslint: {
 		config: {
